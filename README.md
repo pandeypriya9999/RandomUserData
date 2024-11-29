@@ -9,6 +9,7 @@ This project provides a service to fetch random user data from the [RandomUser.m
 - Retry logic for transient errors (HTTP status codes 429 and 502).
 - Paginated API for querying saved users from MongoDB.
 - Customizable batch size, request rate, and sleep time.
+- Fully tested with Jest.
 
 ## Technologies Used
 
@@ -16,6 +17,7 @@ This project provides a service to fetch random user data from the [RandomUser.m
 - **TypeScript**: Static typing for better development experience.
 - **MongoDB**: NoSQL database for storing user data.
 - **Mongoose**: ODM for MongoDB in Node.js.
+- **Jest**: Testing framework for unit and integration tests.
 - **axios**: Promise-based HTTP client for making requests to external APIs.
 
 ## Setup and Installation
